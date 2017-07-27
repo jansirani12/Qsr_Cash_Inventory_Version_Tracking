@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="main/java/|test/java/|test/data/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/data"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/jansirani.t/Downloads/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/Jansi/eProfitability_Ecash/eProfitability_Ecash/LibraryFiles/velocity-dep-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

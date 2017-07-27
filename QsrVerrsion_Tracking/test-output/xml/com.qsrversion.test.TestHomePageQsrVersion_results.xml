@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="eBos Qsr Version Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47.491">
+  <properties />
+  
+  
+            <testcase name="loginToHomePage" time="47.491" classname="com.qsrversion.test.TestHomePageQsrVersion" />
+      
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="eBos Qsr Version Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://qa.ebos.qsrsoft.com/#" />
+		<classes>
+			<class name="com.qsrversion.test.TestHomePageQsrVersion">
+			</class>
+		</classes>
+	</test>
+
+</suite>
+

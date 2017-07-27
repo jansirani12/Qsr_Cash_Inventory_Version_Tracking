@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qa.ebos.qsrsoft.com/#"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="eBos Qsr Version Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://qa.ebos.qsrsoft.com/#"/>
+    <classes>
+      <class name="com.qsrversion.test.TestHomePageQsrVersion">
+        <methods>
+          <include name="loginToHomePage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qsrversion.test.TestHomePageQsrVersion -->
+    </classes>
+  </test> <!-- eBos Qsr Version Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

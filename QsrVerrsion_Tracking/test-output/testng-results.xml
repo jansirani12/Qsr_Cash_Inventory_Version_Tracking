@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter user name as 'ez712342'<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Enter password as 'Bigmac2'<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button<br/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Test Suite" duration-ms="85765" started-at="2017-07-26T06:26:47Z" finished-at="2017-07-26T06:28:13Z">
+    <groups>
+    </groups>
+    <test name="eBos Qsr Version Test" duration-ms="85765" started-at="2017-07-26T06:26:47Z" finished-at="2017-07-26T06:28:13Z">
+      <class name="com.qsrversion.test.TestHomePageQsrVersion">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qsrversion.test.TestHomePageQsrVersion@f9b8bc]" name="setUp" is-config="true" duration-ms="36478" started-at="2017-07-26T11:56:47Z" finished-at="2017-07-26T11:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qa.ebos.qsrsoft.com/#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToHomePage(com.qsrversion.excelutils.LoginPageData)[pri:0, instance:com.qsrversion.test.TestHomePageQsrVersion@f9b8bc]" name="loginToHomePage" duration-ms="47491" started-at="2017-07-26T11:57:23Z" description="Verify that user is abe to login into eBos system" data-provider="TC_01" finished-at="2017-07-26T11:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.qsrversion.excelutils.LoginPageData@8c1c9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name as 'ez712342'<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Enter password as 'Bigmac2'<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qsrversion.test.TestHomePageQsrVersion@f9b8bc]" name="tearDown" is-config="true" duration-ms="1685" started-at="2017-07-26T11:58:11Z" finished-at="2017-07-26T11:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qsrversion.test.TestHomePageQsrVersion -->
+    </test> <!-- eBos Qsr Version Test -->
+  </suite> <!-- Regression Test Suite -->
+</testng-results>
